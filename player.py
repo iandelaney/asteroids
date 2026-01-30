@@ -3,10 +3,9 @@ from constants import PLAYER_RADIUS
 
 
 class Player(CircleShape):
-    def __init__(self, x, y, PLAYER_RADIUS):
+    def __init__(self, x, y, PLAYER_RADIUS, rotation):
         super().__init__(x, y, PLAYER_RADIUS)
-        self.rotation = 0
-
+        self.rotation = rotation
 
 
     # in the Player class
