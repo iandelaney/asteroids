@@ -1,7 +1,7 @@
 import sys
 import pygame
 from asteroid import Asteroid
-from constants import PLAYER_RADIUS, SCREEN_WIDTH, SCREEN_HEIGHT
+from constants import SCREEN_WIDTH, SCREEN_HEIGHT
 from logger import log_state, log_event
 from player import Player
 from asteroidfield import AsteroidField
